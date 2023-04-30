@@ -1,0 +1,5 @@
+<launch>
+	<node name="turtlesim_node" pkg="turtlesim" type="turtlesim_node" />
+	<node name="harmonic_server" pkg="my_srv" type="harmonic_server" />
+	<node name="exercise3" pkg="turtlebot_controller" type="exercise3" />
+</launch>
