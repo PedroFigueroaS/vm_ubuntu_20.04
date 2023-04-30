@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<launch>
+   <include file="$(find assignment_2_2022)/launch/assignment1.launch" />
+    <node pkg="assignment_2_2022" type="nodeA.py" name="nodeA" launch-prefix="gnome-terminal --command" />
+    <node pkg="assignment_2_2022" type="nodeA_msg.py" name="nodeA_msg" launch-prefix="gnome-terminal --command"  />
+    <node pkg="assignment_2_2022" type="nodeB.py" name="nodeB" launch-prefix="gnome-terminal --command" />
+    <node pkg="assignment_2_2022" type="nodeC.py" name="nodeC" launch-prefix="gnome-terminal --command" />
+</launch>
